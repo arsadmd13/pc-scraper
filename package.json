@@ -1,0 +1,22 @@
+{
+  "name": "pc-scraper",
+  "version": "1.0.0",
+  "description": "A node.js server that scraps students data from parents corner website. (Backend server for students portal android app)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "nodemon": "nodemon index.js"
+  },
+  "author": "mohamedarsad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.9",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
